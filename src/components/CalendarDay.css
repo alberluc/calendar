@@ -1,0 +1,25 @@
+.CalendarDay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.CalendarDay-disabled {
+    color: #eee;
+    background-color: #fff !important;
+}
+
+.CalendarDay-selectionStart {
+    background-color: #29ff29;
+}
+
+.CalendarDay-selectionBetween {
+    background-color: #d8ffd8;
+}
+
+.CalendarDay-selectionEnd {
+    background-color: #29ff29;
+}

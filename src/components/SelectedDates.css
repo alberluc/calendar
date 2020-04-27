@@ -1,0 +1,9 @@
+.SelectedDates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SelectedDates-value {
+    text-transform: capitalize;
+}
