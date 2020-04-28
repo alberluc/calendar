@@ -16,7 +16,8 @@ export function useCalendarWeeksGenerator({ month, year }) {
     days.forEach(day => {
         if (!dateByWeeks[weekIndex]) dateByWeeks[weekIndex] = []
         dateByWeeks[weekIndex].push({day, enabled: true})
-        if (day.getDay() === 6) weekIndex++
+        console.log(day, day.getDay())
+        if (day.getDay() === 0) weekIndex++
     })
 
     let prevMonthDays = []

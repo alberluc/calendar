@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import {CalendarMonth} from "./components/CalendarMonth";
-import {useCalendarMonthsGenerator} from "./components/hooks/useCalendarMonthsGenerator";
+import {useCalendarMonthsGenerator} from "./hooks/useCalendarMonthsGenerator";
 import './Calendar.css';
 import Swiper from 'swiper';
 import 'swiper/css/swiper.min.css';

@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
 import {CalendarRow} from './common/CalendarRow';
 import {CalendarCell} from './common/CalendarCell';
-import {useCalendarWeeksGenerator} from './hooks/useCalendarWeeksGenerator';
+import {useCalendarWeeksGenerator} from '../hooks/useCalendarWeeksGenerator';
 import './CalendarMonth.css';
 import moment from "moment";
 import {CalendarDay} from "./CalendarDay";

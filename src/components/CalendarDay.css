@@ -1,3 +1,8 @@
+.CalendarDay > span {
+    position: relative;
+    z-index: 2;
+}
+
 .CalendarDay {
     display: flex;
     justify-content: center;

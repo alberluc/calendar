@@ -1,5 +1,5 @@
 import React, {useContext} from "react";
-import {GlobalContext} from "./hooks/useGlobalState";
+import {GlobalContext} from "../hooks/useGlobalState";
 import './SelectedDates.css'
 import moment from 'moment'
 
